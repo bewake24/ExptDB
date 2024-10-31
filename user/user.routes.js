@@ -17,7 +17,7 @@ router.post("/adduser", async (req, res) => {
         }
     
         if(err.name === MONGOOSE_VALIDATION_ERROR) {
-            return res.status(400).json({ message: err.message });
+            return res.status(400).json({ message: message });
         }
         return res.status(500).json({ message: err });
       }

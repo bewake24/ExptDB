@@ -1,0 +1,27 @@
+{
+  "name": "exptdb",
+  "version": "1.0.0",
+  "description": "Just a repo made to experiment things in backend. I like to experiment things here before I do in real projects.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "db",
+    "databases",
+    "mongoose",
+    "express"
+  ],
+  "author": "Vivek Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
